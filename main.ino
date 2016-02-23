@@ -19,8 +19,6 @@ void read_ppm(){
   static byte channel;
   bool PinInStat;
 
-  counter = TCNT1; 
-  TCNT1 = 0;      
 
   PinInStat=digitalRead(PinIn);
   pulse++;
