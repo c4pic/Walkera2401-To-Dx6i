@@ -17,11 +17,10 @@ void read_ppm(){
   bool PinInStat;
 
 
-  PinInStat=digitalRead(PinIn);
   pulse++;
   
   while (pulse<=14) {
-    digitalWrite(PinOut,!PinInStat);
+    digitalWrite(PinOut,!digitalRead(PinIn));
   }
 
   if (pulse>=18){
