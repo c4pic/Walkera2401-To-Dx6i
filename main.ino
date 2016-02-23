@@ -1,3 +1,4 @@
+//TODO  - sincro con primer pulso
 void setup() {
   pinMode(3, INPUT);
   pinMode(10, OUTPUT); 
