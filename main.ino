@@ -9,10 +9,6 @@ void loop() {}
 void read_ppm(){
   static unsigned int pulse;
   pulse++;
-  while (pulse<=14) {
-    digitalWrite(PinOut,!digitalRead(PinIn));
-  }
-  if (pulse>=18){
-    pulse=0;
-  }
+  while (pulse<=14) {    digitalWrite(PinOut,!digitalRead(PinIn));  }
+  if (pulse>=18){    pulse=0;  }
 }
