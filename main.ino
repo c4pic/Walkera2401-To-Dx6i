@@ -3,5 +3,5 @@ void setup() {
   pinMode(10, OUTPUT); 
 }
 void loop() {
-  digitalWrite(10,!digitalRead(3));
+ digitalWrite(10,!digitalRead(3));
 }
