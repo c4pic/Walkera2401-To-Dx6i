@@ -1,4 +1,5 @@
 //TODO  - sincro con primer pulso
+static unsigned int pulse=0;
 void setup() {
   pinMode(3, INPUT);
   pinMode(10, OUTPUT); 
