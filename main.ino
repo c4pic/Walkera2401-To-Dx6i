@@ -8,6 +8,6 @@ void setup() {
 void loop() {}
 void read_ppm(){
   pulse++;
-  while (pulse<=14) {    digitalWrite(10,!digitalRead(3));  }
-  if (pulse>=18){    pulse=0;  }
+  if (pulse<=14) {    digitalWrite(10,!digitalRead(3));  }
+  if (pulse>=18) {    pulse=0;  }
 }
