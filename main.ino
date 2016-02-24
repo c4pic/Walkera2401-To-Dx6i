@@ -7,7 +7,6 @@ void setup() {
 }
 void loop() {}
 void read_ppm(){
-  static unsigned int pulse;
   pulse++;
   while (pulse<=14) {    digitalWrite(10,!digitalRead(3));  }
   if (pulse>=18){    pulse=0;  }
