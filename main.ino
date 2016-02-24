@@ -1,5 +1,5 @@
 static unsigned int pulse=0;
-static unsigned int tempo=0;
+static unsigned int t1=0;
 void setup() {  pinMode(3, INPUT);
   pinMode(10, OUTPUT); 
   attachInterrupt(1, read_ppm, CHANGE); }
